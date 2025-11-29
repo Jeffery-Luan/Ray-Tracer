@@ -1,0 +1,11 @@
+Camera (0, 0, 0) (0, 0, 1) 0 1
+
+Material "Red" (.1, .05, .05) (1, .5, .5) (0, 0, 0) 0 0 0 1
+Material "Green" (.05, .1, .05) (.5, 1, .5) (1, 1, 1) 50 0 0 1
+Material "Blue" (.05, .05, .1) (.5, .5, 1) (0, 0, 0) 0 0 0 1
+
+PointLight "Light" (.75, 1.5, 0) (1, 1, 1)
+
+Plane "Plane" (0, -1, 0) (0, 1, 0) "Red"
+Sphere "Sphere" (-.25, 0, 2) .5 "Green"
+Triangle "Triangle" (.45, -.05, 1.75) (.7, .25, 2.5) (.95, -.1, 2) "Blue"
